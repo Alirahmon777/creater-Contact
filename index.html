@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./script.js" defer></script>
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="contact container-fluid">
+      <div class="header">
+        <h1 class="header__title text-center text-light py-4 my-1">
+          Contact book
+        </h1>
+      </div>
+      <div class="container-xxl">
+        <div class="contact-form row">
+          <div class="col-6">
+            <h2 class="subtitle my-4">New contact form</h2>
+            <form action="" class="form d-flex flex-column gap-4">
+              <input
+                class="form-control py-2"
+                id="name"
+                required
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+              <input
+                class="form-control py-2"
+                id="relation"
+                required
+                type="text"
+                name="name"
+                placeholder="Relationship"
+              />
+              <input
+                class="form-control py-2"
+                id="number"
+                required
+                type="number"
+                name="number"
+                placeholder="Phone"
+              />
+              <button class="btn btn-primary py-2" id="btn">Add Contact</button>
+            </form>
+          </div>
+          <div class="col-6">
+            <h2 class="subtitle my-4">Contacts</h2>
+            <div class="card py-3 px-4">
+                <h5 class="text my-1">Ibrohim</h5>
+                <p class="subtext my-1">Qarindosh</p>
+                <a href="tel:+998974771180" class="link-primary btn-link text-decoration-none tel">+998 97 777 77 77</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
