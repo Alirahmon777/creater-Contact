@@ -39,7 +39,7 @@ function renderTodos(array) {
       .splice(8)
       .join("")} ${array[i].split(" ")[2].split("", 12).splice(10).join("")}</a>
 	`;
-    console.log(array[i].split(" ")[2].length);
+    console.log(array[i].split(" ")[2]);
     colSecond.appendChild(newDiv);
   }
 }
