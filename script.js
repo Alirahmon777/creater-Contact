@@ -3,7 +3,7 @@ const elBtn = document.querySelector("#btn");
 const userPhone = document.querySelector("#number");
 const userName = document.querySelector("#name");
 const userRelation = document.querySelector("#relation");
-const colSecond = document.querySelectorAll(".col-6")[1];
+const colSecond = document.querySelectorAll(".col-md-6")[1];
 
 const list = [];
 
